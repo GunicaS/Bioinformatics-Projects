@@ -1,2 +1,36 @@
+![](c:\Users\vs24\Downloads\bioinformatics header.jpg)
 # Bioinformatics-Projects
 This repository contains a collection of bioinformatics projects I've worked on various topics. These projects reflect both academic coursework and research experiences, and they demonstrate the use of tools like R, Python, Bash, and popular bioinformatics packages.
+
+---
+
+## Project Summaries
+
+### 1. Analysis of AlphaFold Structures Project
+This project evaluates the performance of Google's AlphaFold in predicting 3D protein structures. The analysis compares AlphaFold-generated models against experimentally determined "gold standard" structures from the PDB for two different proteins. Using Root Mean Square Deviation (RMSD) as a metric, the project found that AlphaFold produced highly accurate models for a longer, standalone fimbrial adhesion protein (PDB: 6Y4F) but was less accurate for a shorter protein that is part of a larger complex (PDB: 6W6W). The conclusion highlights that while AlphaFold is a powerful tool, its accuracy can vary based on factors like sequence length and protein complexity.
+
+### 2. Cast Sense - Biotechnology Product Proposal
+This project proposes "Cast Sense," a novel biotechnology product designed to address infections in orthopedic casts. The device is a wearable biosensor that detects the presence of two common pathogenic bacteria, *S. epidermidis* and *A. baumannii*, directly on the skin under a cast. The sensor uses distinct nodes—one with an antibody tag for a specific enzyme and another with a polymeric film that registers pH changes—to identify the bacteria. Data is then sent via Bluetooth to a smartphone app, alerting the user and enabling early medical intervention. The proposal also includes a market analysis, identifying an undersaturated market for direct bacterial detection in casts.
+
+### 3. Genetic Modification in Plants Research Project
+This project provides an overview of Genetically Modified Organisms (GMOs), with a specific focus on the development, application, and ethical implications of Bt (Bacillus thuringiensis) crops like cotton, corn, and potatoes. A central part of the research is a case study on Bt cotton in India, which found that despite its pest-resistance claims, the technology was less effective in India's climate, leading to massive yield losses and severe economic hardship for subsistence farmers. The project delves into the complex ethical landscape, discussing issues like corporate monopolies, environmental impacts, and the need for better regulatory oversight, public education, and support for small-scale farmers.
+
+### 4. Identifying Source of Virulence
+This project uses the Nextclade bioinformatic tool to analyze the genome of SARS-CoV-2 and understand its evolution and spread. The analysis involved running viral sequences through the Nextclade pipeline to perform sequence alignment, clade assignment, and mutation calling against a reference genome. The results successfully identified different variants from sequence data, including Delta (21J), Epsilon (21C), Alpha (20I), and Omicron (22B), and pinpointed mutations in key genes like ORF1a. The project concludes that Nextclade is a powerful tool for pathogen surveillance but has limitations, such as its dependence on the reference genome and its limited built-in support for pathogens outside of its pre-configured datasets.
+
+### 5. PyMol Amino Acid and Proteins Structure Analysis
+This project uses the PyMOL visualization tool to research the structure and function of several important molecules. The analysis is divided into three parts:
+**Hydroxyproline (HYP):** Explores the structure of this modified amino acid and its crucial role in providing stability to collagen. The analysis also covers a bacterial collagenase enzyme that targets HYP for high substrate affinity.
+**HIV Protease:** Investigates the structure of this viral enzyme, which is essential for HIV replication. The project highlights how a tripeptide inhibitor ligand (Glu-Asp-Leu) binds to the protease's active site, blocking its function and halting viral maturation.
+**Cyclosporin-Cyclophilin Complex:** Details the structure of the immunosuppressant drug Cyclosporin A bound to the human protein Cyclophilin A. This complex functions by inhibiting T-cell activation, which is why it's used to prevent organ transplant rejection. The analysis also notes the presence of several non-standard amino acids in Cyclosporin A.
+
+### 6. SoyBase Database Analysis
+This project presents a comprehensive review of the SoyBase database, evaluating its utility as a primary resource for soybean genetic and genomic research. The research details the database's extensive data types, which include genomic sequences, QTLs, phenotypic trait information, and metabolic pathways. Funded and curated by the USDA-ARS, SoyBase provides expert-validated public domain data and a suite of analysis tools like BLAST and a genome browser. The project concludes that while SoyBase is an invaluable and user-friendly resource for researchers, it could be improved with more detailed documentation and tutorials for novice users and by integrating external tools like 3D protein structure viewers.
+
+### 7. Variability in Expression of TP53BP2 in Common Cancer Tissues
+This project investigates the expression patterns of the gene TP53BP2, a known regulator of the p53 tumor suppressor, in common cancer-prone tissues (colon, breast, and lung). Using data from the GTEx Portal and The Human Protein Atlas, the study cross-analyzes gene expression with demographic data (age and sex) using R. The results show distinct patterns: females consistently exhibit higher expression in breast tissue across all ages, while a significant spike in expression is seen in older females (70-79) in lung tissue. The project concludes that these variable expression patterns could be influenced by hormonal or age-related factors and may offer insights for developing personalized cancer treatments, though further statistical analysis is required.
+
+### 8. Viruses and Diseases Structure and Identification Analysis Project
+This two-part project covers viral structure visualization and disease identification from a protein marker.
+* **Part 1 - Zika Virus Envelope:** This section analyzes the structure of the Zika virus envelope (E) protein, which is critical for viral infectivity and a key target for vaccines. Using visualization tools, the project highlights the three domains of the E protein and its dimeric arrangement on the icosahedral viral surface, noting that its compact structure may contribute to its environmental stability.
+* **Part 2 - Disease Identification:** This section identifies a human genetic disease from a mutated protein fragment. By comparing the marker fragment to the wildtype protein sequence for Phenylalanine hydroxylase (PAH), a single amino acid mutation is identified. This mutation is linked to the autosomal recessive disease Phenylketonuria (PKU), which results from the toxic buildup of phenylalanine and is managed through a strict low-protein diet.
