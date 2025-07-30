@@ -1,0 +1,25 @@
+#loaded the program
+export PATH=/group/bit150/software:$PATH 
+
+#I used this command to check the documentation and make sure the program loaded 
+nextclade --help #I used this command to check the documentation and make sure the program loaded 
+
+#I used this command to list out the different reference sets 
+nextclade dataset list 
+
+#I created two directories one for the output and another for saving the reference genome into 
+mkdir Final 
+mkdir Final_output
+
+#to get the genome I used this command to get it into my directory found on website
+nextclade dataset get --name 'sars-cov-2' --output-dir /home/bit150-44/Final 
+
+#I used this command to understand what my run command needs to be 
+nextclade run --help 
+
+#I ran this code to get the outputs
+nextclade run -D /home/bit150-44/Final -O /home/bit150-44/Final_output /group/bit150/Final/BIT150_assembly.fasta 
+
+#I used this to check my output files 
+ls /home/bit150-44/Final_output 
+
